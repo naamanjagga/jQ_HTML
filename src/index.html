@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQ_HTML</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<label for="id">
+				<span>ID</span> 
+				<input type="text" name="ID" id="ID" >
+			</label>
+			<label for="name">
+				<span>Name</span> 
+				<input type="text" name="name" id="name">
+			</label>
+			<label for="price">
+				<span>Price</span> 
+				<input type="text" name="price" id="price">
+			</label>
+			<label for="quantity">
+				<span>Quantity</span> 
+				<input type="text" name="quantity" id="quantity">
+			</label>
+			<p class="submit">
+				<input type="button" name="btn1" id="btn1" value="Submit">
+			</p>
+        </div>
+           <div class="Search">
+                 <label for="Detail">Choose a field:</label>
+                 <select name="details" id="details">
+                    <option value="ID">ID</option>
+                    <option value="NAME">NAME</option>
+                    <option value="PRICE">PRICE</option>
+                    <option value="QUANTITY">QUANTITY</option>
+                </select>
+                <label for="search">
+                    <span>Search here</span> 
+                    <input type="text" name="search" id="search" >
+                </label>
+                <p class="Search">
+                    <input type="button" name="btn2" id="btn2" value="Search">
+                </p>
+           </div>
+           <div id="footer" ></div>
+			
+		
+		
+		
+	</div>
+	<script src="script.js" ></script>
+</body>
+</html>
